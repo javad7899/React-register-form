@@ -33,3 +33,6 @@ input:invalid[focused="true"] {
 input:invalid[focused="true"] ~ span {
   display: block;
 }
+input:valid[focused="true"] {
+  border: 2px solid #29c236;
+}
